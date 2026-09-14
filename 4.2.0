@@ -1,0 +1,42 @@
+Requirement already satisfied: plotly in e:\willis\introai\.venv\lib\site-packages (7.0.0)
+Requirement already satisfied: statsmodels in e:\willis\introai\.venv\lib\site-packages (0.15.0)
+Collecting nbformat
+  Using cached nbformat-5.11.1-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: narwhals>=1.15.1 in e:\willis\introai\.venv\lib\site-packages (from plotly) (2.26.0)
+Requirement already satisfied: packaging in e:\willis\introai\.venv\lib\site-packages (from plotly) (26.3)
+Requirement already satisfied: numpy<3,>=1.23.5 in e:\willis\introai\.venv\lib\site-packages (from statsmodels) (2.5.3)
+Requirement already satisfied: scipy!=1.9.2,>=1.8 in e:\willis\introai\.venv\lib\site-packages (from statsmodels) (1.18.1)
+Requirement already satisfied: pandas!=2.1.0,>=1.4 in e:\willis\introai\.venv\lib\site-packages (from statsmodels) (3.0.5)
+Requirement already satisfied: patsy>=0.5.6 in e:\willis\introai\.venv\lib\site-packages (from statsmodels) (1.0.3)
+Requirement already satisfied: formulaic>=1.1.0 in e:\willis\introai\.venv\lib\site-packages (from statsmodels) (1.2.2)
+Collecting fastjsonschema>=2.15 (from nbformat)
+  Using cached fastjsonschema-2.22.2-py3-none-any.whl.metadata (2.1 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in e:\willis\introai\.venv\lib\site-packages (from nbformat) (5.9.1)
+Requirement already satisfied: traitlets>=5.1 in e:\willis\introai\.venv\lib\site-packages (from nbformat) (5.16.1)
+Requirement already satisfied: interface-meta>=1.2.0 in e:\willis\introai\.venv\lib\site-packages (from formulaic>=1.1.0->statsmodels) (2.0.1)
+Requirement already satisfied: typing-extensions>=4.2.0 in e:\willis\introai\.venv\lib\site-packages (from formulaic>=1.1.0->statsmodels) (4.16.0)
+Requirement already satisfied: wrapt>=1.17.0rc1 in e:\willis\introai\.venv\lib\site-packages (from formulaic>=1.1.0->statsmodels) (2.4.1)
+Collecting attrs>=22.2.0 (from jsonschema>=2.6->nbformat)
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat)
+  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat)
+  Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=2.6->nbformat)
+  Using cached rpds_py-2026.6.3-cp314-cp314-win_amd64.whl.metadata (4.2 kB)
+Requirement already satisfied: platformdirs>=2.5 in e:\willis\introai\.venv\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (4.11.8)
+Requirement already satisfied: python-dateutil>=2.8.2 in e:\willis\introai\.venv\lib\site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2.9.0.post0)
+Requirement already satisfied: tzdata in e:\willis\introai\.venv\lib\site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2026.4)
+Requirement already satisfied: six>=1.5 in e:\willis\introai\.venv\lib\site-packages (from python-dateutil>=2.8.2->pandas!=2.1.0,>=1.4->statsmodels) (1.17.0)
+Using cached nbformat-5.11.1-py3-none-any.whl (79 kB)
+Using cached fastjsonschema-2.22.2-py3-none-any.whl (27 kB)
+Using cached jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Using cached referencing-0.37.0-py3-none-any.whl (26 kB)
+Using cached rpds_py-2026.6.3-cp314-cp314-win_amd64.whl (220 kB)
+Installing collected packages: rpds-py, fastjsonschema, attrs, referencing, jsonschema-specifications, jsonschema, nbformat
+   ----------- ---------------------------- 2/7 [attrs]   ---------------------------- ----------- 5/7 [jsonschema]   ---------------------------------- ----- 6/7 [nbformat]   ---------------------------------------- 7/7 [nbformat]
+Successfully installed attrs-26.1.0 fastjsonschema-2.22.2 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 nbformat-5.11.1 referencing-0.37.0 rpds-py-2026.6.3
